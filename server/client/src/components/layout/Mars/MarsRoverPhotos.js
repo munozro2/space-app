@@ -14,7 +14,10 @@ const MarsRoverPhotos = ({images}) => {
     >
       {images.map((d) => (
         <Slide image={<img key={d.id} alt="" src={d.img_src} />}>
-          <Caption placement="center">
+          <Caption
+            placement="right"
+            style={{height: '30px', paddingTop: '175px'}}
+          >
             <h3>{d.camera.name}</h3>
             <h5 className="light grey-text text-lighten-3">
               {d.camera.full_name}

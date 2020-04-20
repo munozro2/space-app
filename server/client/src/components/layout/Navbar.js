@@ -7,7 +7,6 @@ class Navbar extends React.Component {
     return (
       <nav>
         <div class="nav-wrapper grey darken-4">
-          <img src={logo} style={{height: '50px'}} />
           <a href="/Dashboard" class="brand-logo center">
             Eternal Space
           </a>
