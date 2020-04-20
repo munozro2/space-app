@@ -1,24 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import logo from './images/giphy.gif';
 
-class Navbar extends React.Component{
-    render(){
-        return(
-            <div className="navbar-fixed">
-                <nav className="z-depth-0">
-                    <div className="nav-wrapper white">
-                        <Link
-                            to="/" 
-                            style={{fontFamily:"monospace"}}
-                            className="col s5 brand-logo center black-text">
-                            Eternal Space
-                            <i className="large material-icons">star_border</i>
-                        </Link>
-                    </div>
-                </nav>
-            </div>
-        )
-    }
+class Navbar extends React.Component {
+  render() {
+    return (
+      <nav>
+        <div class="nav-wrapper grey darken-4">
+          <img src={logo} style={{height: '50px'}} />
+          <a href="/Dashboard" class="brand-logo center">
+            Eternal Space
+          </a>
+        </div>
+      </nav>
+    );
+  }
 }
 
 export default Navbar;
