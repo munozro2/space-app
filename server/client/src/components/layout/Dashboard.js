@@ -36,8 +36,8 @@ const Dashboard = () => {
 
   if (isLoading) {
     return (
-      <div>
-        <Col s={4}>
+      <div style={{marginLeft: '50%', marginTop: '50%'}}>
+        <Col l={2}>
           <Preloader active color="blue" flashing={false} size="big" />
         </Col>
       </div>
