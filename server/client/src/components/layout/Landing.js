@@ -20,37 +20,42 @@ const Landing = () => {
     <div style={{height: '75vh'}} className="container valign-wrapper">
       <div className="row">
         <div className="col s12 center-align">
-          <img src={pictureOTD.url} />
-          <h4 style={{textAlign: 'center'}}>
-            <b>Eternal Space</b> with Authorization
-          </h4>
+          <img
+            src={pictureOTD.url}
+            style={{width: '100%', height: 'auto', boxSshadow: '10px 10px'}}
+          />
         </div>
         <br />
-        <div className="col s6">
-          <Link
-            to="/register"
-            style={{
-              width: '140px',
-              borderRadius: '3px',
-              letterSpacing: '1.5px',
-            }}
-            className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-          >
-            Register
-          </Link>
-        </div>
-        <div className="col s6">
-          <Link
-            to="/login"
-            style={{
-              width: '140px',
-              borderRadius: '3px',
-              letterSpacing: '1.5px',
-            }}
-            className="btn btn-large  waves-effect white black-text"
-          >
-            Log In
-          </Link>
+        <h4 style={{textAlign: 'center', color: 'white'}}>
+          <b>Eternal Space</b> with Authorization
+        </h4>
+        <div className="container">
+          <div className="col s6">
+            <Link
+              to="/register"
+              style={{
+                width: '140px',
+                borderRadius: '3px',
+                letterSpacing: '1.5px',
+              }}
+              className="btn btn-large waves-effect waves-light hoverable blue accent-3"
+            >
+              Register
+            </Link>
+          </div>
+          <div className="col s6">
+            <Link
+              to="/login"
+              style={{
+                width: '140px',
+                borderRadius: '3px',
+                letterSpacing: '1.5px',
+              }}
+              className="btn btn-large  waves-effect white black-text"
+            >
+              Log In
+            </Link>
+          </div>
         </div>
       </div>
     </div>
