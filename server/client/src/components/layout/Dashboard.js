@@ -46,6 +46,7 @@ const Dashboard = () => {
     return (
       <div>
         <MarsRoverPhotos data={marsData} />
+        <MarsWeather />
       </div>
     );
   }
