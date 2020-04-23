@@ -44,7 +44,7 @@ const Dashboard = () => {
     );
   } else {
     return (
-      <div>
+      <div style={{marginTop: '20px', backgroundColor: '#DCDCDC'}}>
         <MarsRoverPhotos data={marsData} />
         <MarsWeather />
       </div>

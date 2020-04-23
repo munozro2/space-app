@@ -19,6 +19,7 @@ const MarsWeatherDesign = ({data}) => {
           height: '400px',
           backgroundSize: '100%',
           backgroundRepeat: 'no-repeat',
+          marginTop: '30px',
         }}
       >
         {' '}
