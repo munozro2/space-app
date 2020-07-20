@@ -14,7 +14,7 @@
     "http-proxy-middleware": "^0.20.0",
     "is-empty": "^1.2.0",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "materialize-css": "^1.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
